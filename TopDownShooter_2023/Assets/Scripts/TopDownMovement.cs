@@ -19,6 +19,8 @@ public class TopDownMovement : MonoBehaviour
     [SerializeField]
     private Camera Camera;
 
+    public bool dashing = false;
+
     private void Awake()
     {
         _input = GetComponent<InputHandler>();
